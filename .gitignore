@@ -2,3 +2,5 @@ node_modules
 .firebase
 .firebaserc
 firebase.json
+apiKeys.js
+
