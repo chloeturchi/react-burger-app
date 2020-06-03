@@ -1,5 +1,6 @@
 import * as actionTypes from './actionTypes';
 import axios from '../../axios-orders';
+import apiConfig from '../../apiKeys'
 
 export const addIngredient = ( name ) => {
     return {
@@ -30,7 +31,7 @@ export const fetchIngredientsFailed = () => {
 
 export const initIngredients = () => {
     return dispatch => {
-        axios.get( 'https://react-my-burger-7ca77.firebaseio.com/ingredients.json' )
+        axios.get( `${apiConfig.firebaseKey}ingredients.json` )
             .then( response => {
                dispatch(setIngredients(response.data));
             } )
