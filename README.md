@@ -8,6 +8,7 @@ The user can create his own burger, put the burger in his shopping cart and buy 
 - React, react-dom, react-router-dom, react-redux, 
 - Redux, redux-saga, redux-thunk
 - axios
+- firebase
 
 ## Installation
     Install the dependencies from the package.json file with npm install
