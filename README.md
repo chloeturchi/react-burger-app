@@ -9,7 +9,6 @@ The user can create his own burger, put the burger in his shopping cart and buy 
 - react hooks
 - redux, redux-saga, redux-thunk
 - axios
-- firebase
 
 ## Installation
     Install the dependencies from the package.json file with npm install
